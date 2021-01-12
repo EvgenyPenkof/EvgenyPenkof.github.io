@@ -123,6 +123,12 @@
 .header-logo:hover .header-logo-text {
   color: #c7b299;
 }
+.header-logo:active .header-logo-icon {
+  fill: #c5883d;
+}
+.header-logo:active .header-logo-text {
+  color: #c5883d;
+}
 .header-menu {
   display: -webkit-box;
   display: -ms-flexbox;
