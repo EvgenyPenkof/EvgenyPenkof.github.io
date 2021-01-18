@@ -171,6 +171,14 @@
     &:hover .header-logo-text {
         color: #c7b299;
     }
+
+    &:active .header-logo-icon {
+        fill: #c5883d;
+    }
+
+    &:active .header-logo-text {
+        color: #c5883d;
+    }
 }
 
 .header-menu {
@@ -674,26 +682,18 @@
         justify-content: center;
         align-items: center;
         outline: none;
+        .text (14px, 'montserrat-light', #8c8c8c);
+        text-transform: capitalize;
+        cursor: pointer;
 
         &:hover {
             background-color: #998675;
-        }
-
-        &:hover .project-btnlist-txt {
             color: #fff;
         }
 
         &:active {
             background-color: #c5883d;
-        }
-
-        &:active .project-btnlist-txt {
             color: #fff;
-        }
-
-        &-txt {
-            .text (14px, 'montserrat-light', #8c8c8c);
-            text-transform: capitalize;
         }
 
         &:nth-of-type(5) {
@@ -1289,6 +1289,10 @@
 
         &:nth-child(4) {
             margin: 0;
+        }
+
+        &:hover {
+            opacity: 0.7;
         }
     }
 }

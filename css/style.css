@@ -673,24 +673,19 @@
       -ms-flex-align: center;
           align-items: center;
   outline: none;
-}
-.project-btnlist:hover {
-  background-color: #998675;
-}
-.project-btnlist:hover .project-btnlist-txt {
-  color: #fff;
-}
-.project-btnlist:active {
-  background-color: #c5883d;
-}
-.project-btnlist:active .project-btnlist-txt {
-  color: #fff;
-}
-.project-btnlist-txt {
   font-size: 14px;
   font-family: 'montserrat-light';
   color: #8c8c8c;
   text-transform: capitalize;
+  cursor: pointer;
+}
+.project-btnlist:hover {
+  background-color: #998675;
+  color: #fff;
+}
+.project-btnlist:active {
+  background-color: #c5883d;
+  color: #fff;
 }
 .project-btnlist:nth-of-type(5) {
   margin: 0;
@@ -1318,6 +1313,9 @@
 }
 .logos-link:nth-child(4) {
   margin: 0;
+}
+.logos-link:hover {
+  opacity: 0.7;
 }
 .footer {
   width: 100%;
